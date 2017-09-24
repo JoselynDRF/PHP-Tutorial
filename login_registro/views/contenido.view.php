@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name=viewport content="width=device-width,  user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link rel=stylesheet href="css/styles.css">
 		<title> Contenido </title>
 	</head>
@@ -12,7 +13,9 @@
 		<div class="contenedor">
 			<h1 class="titulo"> Contenido del sitio </h1>
 			<a href="cerrar.php"> Cerrar Sesion </a>
+			<hr class="border">
 			<div class="contenido">
+
 			<article>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente perferendis amet voluptas atque non! Sunt id earum mollitia ab nihil quod deleniti laboriosam! Mollitia exercitationem distinctio ratione sint quis fugit?</p>
 

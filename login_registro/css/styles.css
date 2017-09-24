@@ -47,7 +47,7 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-.formulario .from-group {
+.formulario .form-group {
 	width: 100%;
 	margin-bottom: 10px;
 }
@@ -60,6 +60,7 @@ a:hover {
 	line-height: 18px;
 	border: none;
 	vertical-align: top;
+	max-height: 48px;
 }
 
 .formulario .icono {
@@ -83,7 +84,7 @@ a:hover {
 .formulario .usuario,
 .formulario .password {
 	width: calc(100% - 52px);
-	border-radius: 3px 0 0 3px; 
+	border-radius: 0 3px 3px 0px;
 }
 
 .formulario .password_btn {
