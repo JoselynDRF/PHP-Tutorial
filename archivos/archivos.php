@@ -15,10 +15,10 @@
 	// Escribir contenido
 	//file_put_contents("documento.txt", "Hola Maria \n", FILE_APPEND);
 
-/*	file_put_contents('documento.txt', '');
+	file_put_contents('documento.txt', '');
 	for ($i = 1; $i <= 10; $i++) {
 		file_put_contents("documento.txt", "$i \n", FILE_APPEND);
-	}*/
+	}
 
 	// Convertir en array
 	$archivo = file('documento.txt');
