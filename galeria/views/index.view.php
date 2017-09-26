@@ -14,62 +14,26 @@
 		</div>
 	</header>
 
-	<section class="fotos">
 		<div class="contenedor">
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/1.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/2.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/3.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/4.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-						<div class="thumb">
-				<a href="#">
-					<img src="imagenes/5.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/6.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/7.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="thumb">
-				<a href="#">
-					<img src="imagenes/8.jpg" alt="" class="imagenes">
-				</a>
-			</div>
-
-			<div class="paginacion">
-				<a href="#"> Página Anterior </a>
-				<a href="#"> Página Siguiente </a>
-			</div>
+			<?php foreach ($fotos as $foto): ?>
+				<div>
+					<a href="foto.php?id=<?php echo $foto['id']?>">
+						<img src="fotos/<?php echo $foto['imagen'] ?>" class="imagenes">
+					</a>
+				</div>
+			<?php endforeach; ?>
 		</div>
-	</section>
+
+		<div class="paginacion">
+			<?php if ($pagina_actual > 1): ?>
+				<a href="index.php?p=<?php echo $pagina_actual - 1 ?>"> Página Anterior </a>
+			<?php endif; ?>
+
+			<?php if ($total_paginas != $pagina_actual): ?>
+				<a href="index.php?p=<?php echo $pagina_actual + 1 ?>"> Página Siguiente </a>
+			<?php endif; ?>
+		</div>
+	
 
 </body>
 </html>
