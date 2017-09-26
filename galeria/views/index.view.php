@@ -26,11 +26,11 @@
 
 		<div class="paginacion">
 			<?php if ($pagina_actual > 1): ?>
-				<a href="index.php?p=<?php echo $pagina_actual - 1 ?>"> Página Anterior </a>
+				<a href="index.php?p=<?php echo $pagina_actual - 1 ?>" class="btn anterior"> Página Anterior </a>
 			<?php endif; ?>
 
 			<?php if ($total_paginas != $pagina_actual): ?>
-				<a href="index.php?p=<?php echo $pagina_actual + 1 ?>"> Página Siguiente </a>
+				<a href="index.php?p=<?php echo $pagina_actual + 1 ?>" class="btn"> Página Siguiente </a>
 			<?php endif; ?>
 		</div>
 	
