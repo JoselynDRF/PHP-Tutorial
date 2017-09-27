@@ -29,6 +29,26 @@
 		return $sentencia->fetchAll();
 	}
 
+	function id_articulo($id) {
+		return (int)limpiarDatos($id);
+	}
 
+	function obtener_post_por_id($conexion, $id) {
+		$resultado = $conexion->query("SELECT * FROM articulos WHERE id=$id LIMIT 1");
+		$resultado = $resultado->fetchAll();
 
+		return ($resultado) ? $resultado : false;
+	}
+
+	function fecha($fecha) {
+		$timestamp = strtotime($fecha);
+		$meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+		$dia = date('d', $timestamp);
+		$mes = (int)date('m', $timestamp);
+		$year = date('Y', $timestamp);
+
+		$fecha = "$dia de " . $meses[$mes - 1] . " del $year";
+		return $fecha;
+	}
 ?>

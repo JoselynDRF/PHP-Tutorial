@@ -8,8 +8,8 @@
 		header('Location: error.php');
 	}
 
-	$post = obtener_post($blog_config['post_por_pagina'], $conexion);
-	if (!$post) {
+	$posts = obtener_post($blog_config['post_por_pagina'], $conexion);
+	if (!$posts) {
 		header('Location: error.php');
 	}
 
