@@ -129,9 +129,9 @@ header .menu ul li a {
 
 header .menu ul li a:hover {
 	text-decoration: none;
-	background-color: #372D2D;
+	background-color: #595959;
 }
-
+;
 .formulario {
 	width: 100%;
 	overflow: hidden;
@@ -228,10 +228,13 @@ footer {
 	text-decoration: none;
 }
 
-.paginacion ul .active {
-	background: #bb1f35;
+.active {
+	display: block;
 	padding: 10px 20px;
-}
+	background: #bb1f35;
+	color: #fff;
+	margin: 0px 6px 50px 6px;
+} 
 
 .paginacion ul .disable {
 	background: #a8a8a8;
