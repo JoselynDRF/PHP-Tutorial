@@ -209,12 +209,18 @@ footer {
 	color: #fff;
 }
 
+.paginacion ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
 
 .paginacion ul li a {
 	display: block;
 	padding: 10px 20px;
 	background: #595959;
 	color: #fff;
+	margin: 0px 6px 50px 6px;
 }
 
 .paginacion ul li a:hover {
@@ -231,15 +237,16 @@ footer {
 	background: #a8a8a8;
 	padding: 10px 20px;
 	cursor: not-allowed;
+	margin: 0px 6px 50px 6px;
 }
 
 .paginacion ul .disable:hover {
 	background: #a8a8a8;
 }
-
+ 
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #fff;
+    color: #fff;
     opacity: 0.5;
 }
 
@@ -247,3 +254,19 @@ footer {
 	margin-left: 15px;
 }
 
+.post {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0 #888888;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.img {
+	width: 100px;
+	height: 100px;
+}
+
+.fecha {
+	font-size: 12px;
+}
