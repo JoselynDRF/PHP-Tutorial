@@ -1,7 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width,  user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel=stylesheet href="<?php echo RUTA; ?>css/styles.css">
+	<title> Blog </title>
+</head>
+<body>
+
 <header>
 	<div class="contenedor">
 		<div class="logo izquierda">
-			<p><a href="#"> Mi primer blog </a></p>
+			<p><a href="<?php echo RUTA; ?>"> Mi primer blog </a></p>
 		</div>
 
 		<div class="derecha">
@@ -20,3 +31,6 @@
 		</div>
 	</div>
 </header>
+
+</body>
+</html>
