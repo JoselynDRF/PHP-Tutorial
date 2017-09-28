@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name=viewport content="width=device-width,  user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel=stylesheet href="<?php echo RUTA; ?>css/styles.css">
+	<link rel=stylesheet href="<?php echo RUTA; ?>/css/styles.css">
 	<title> Blog </title>
 </head>
 <body>
@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="derecha">
-			<form name="busqueda" class="buscar" action="<?php echo RUTA; ?>buscar.php" method="get">
+			<form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
 				<input type="text" name="busqueda" placeholder="Buscar">
 				<button type="submit" class="icono fa fa-search"></button>
 			</form>

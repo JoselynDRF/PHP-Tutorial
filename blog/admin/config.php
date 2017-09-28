@@ -1,6 +1,6 @@
 <?php  
 
-	define('RUTA', 'http://localhost/development/PHP-tutorial/blog/');
+	define('RUTA', 'http://localhost/development/PHP-tutorial/blog');
 
 	$bd_config = array(
 		'basedatos' => 'curso_blog',
@@ -15,7 +15,7 @@
 
 	$blog_admin = array(
 		'usuario' => 'Maria',
-		'pass' => '123'
+		'password' => '123'
 	);
 
 ?>

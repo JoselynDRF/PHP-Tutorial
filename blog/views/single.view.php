@@ -9,9 +9,8 @@
 				<img src="<?php echo RUTA; ?>/imagenes/<?php echo $post['thumb']; ?>" class="img">
 			</div>
 
-			<p class="extracto"><?php echo $post['extracto']; ?></p>
+			<p class="extracto"><?php echo nl2br($post['texto']); ?></p>
 
 		</article>
 	</div>
-
 </div>

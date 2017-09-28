@@ -1,6 +1,8 @@
 <?php require('header.php'); ?>
 
 <div class="contenedor">
+	<h2><?php echo $titulo; ?></h2>
+	
 	<?php foreach ($resultados as $resultado): ?>
 		<div class="post">
 			<article>
