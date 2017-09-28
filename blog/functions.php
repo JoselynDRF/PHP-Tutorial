@@ -60,4 +60,10 @@
 		$fecha = "$dia de " . $meses[$mes - 1] . " del $year";
 		return $fecha;
 	}
+
+	function comprobarSesion() {
+		if (!isset($_SESSION['admin'])) {
+			header('Location: ' . RUTA);
+		}
+	}
 ?>
