@@ -17,7 +17,7 @@
 
 		<div class="derecha">
 			<form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
-				<input type="text" name="busqueda" placeholder="Buscar">
+				<input type="text" name="busqueda" placeholder="Buscar" class="buscar">
 				<button type="submit" class="icono fa fa-search"></button>
 			</form>
 

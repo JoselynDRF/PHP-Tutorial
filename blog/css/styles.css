@@ -66,7 +66,6 @@ header .logo a:hover {
 header .buscar {
 	display: inline-flex;
 	position: relative;
-	margin-right: 15px;
 }
 
 
@@ -252,6 +251,11 @@ footer {
  
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #888888;
+    opacity: 0.5;
+}
+
+.buscar ::-webkit-input-placeholder  { /* WebKit, Blink, Edge */
     color: #fff;
     opacity: 0.5;
 }
