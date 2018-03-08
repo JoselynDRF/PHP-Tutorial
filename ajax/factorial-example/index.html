@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Ejemplo con Ajax </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="functions.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top mb-5" role="navigation">
+      <p class="title"> Usando Ajax con jQuery </p>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-factorial">
+            <input type="text" placeholder="Escribe un número inferior a 10" id="number" class="form-control">        
+            <button class="btn btn-primary" id="submit_cal"> Calcular Factorial </button>
+          </div>
+		
+          <div id="result"></div>
+          <div class="gif">
+            <img id="loading_spinner" src="squares.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

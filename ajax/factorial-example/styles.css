@@ -1,0 +1,52 @@
+nav {
+	background-color: #21385a;
+}
+
+nav .title {
+	color: white;
+	font-size: 20px;
+	padding-top: 8px;
+}
+
+.form-factorial {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.form-factorial input {
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.form-factorial button {
+	background: #21385a;
+	border: 0;
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.form-factorial button:hover {
+	background: #2c4468;
+}
+
+#loading_spinner {
+	display: none;
+}
+
+#result,
+.gif {
+	text-align: center;
+}
+
+#result {
+	font-size: 20px;
+}
+
+@media (max-width: 728px) {
+	.form-factorial {
+		width: 100%;
+	}
+}
