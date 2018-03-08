@@ -11,3 +11,4 @@ Starting with PHP
 * Working with Files in PHP
 * Gallery
 * Create a simple blog
+* Ajax
