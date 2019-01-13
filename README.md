@@ -1,4 +1,4 @@
-# Tutorial - PHP
+# PHP Tutorial
 Starting with PHP
 
 ### Topics
